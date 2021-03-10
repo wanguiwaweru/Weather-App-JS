@@ -6,6 +6,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="weather.css">
+      <script type='text/javascript' src='config.js'></script>
     <title>Document</title>
 </head>
 <body>
@@ -24,7 +25,8 @@
 
 </body>
 <script>
-    const key = '93b6767a7d796be73c3eef98a04767e9';
+    const key = config.SECRET_API_KEY;
+
     
     window.addEventListener("load",() => {
         let long;
